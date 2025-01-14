@@ -1,5 +1,5 @@
 import pandas_read_xml as pdx
-df=pdx.read_xml("../Dataset/SalesTransactions.xml", ['UelSample','SalesItem'])
+df=pdx.read_xml("../Dataset/SalesTransactions.xml", ['UelSample', 'SalesItem'])
 print(df)
 print(df.iloc[0])
 data=df.iloc[0]
